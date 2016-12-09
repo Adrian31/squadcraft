@@ -13,6 +13,6 @@ function startTimer() {
           }
 
 var images = [], x = -1;
-          images[0] = "images/image1.PNG";
-          images[1] = "images/image2.PNG";
-          images[2] = "images/image3.PNG";
+          images[0] = "images/image1.png";
+          images[1] = "images/image2.png";
+          images[2] = "images/image3.png";
