@@ -1,1 +1,48 @@
-// hello
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*{
+  font-family: 'Lato', sans-serif;
+  color: #2C3539;
+}
+
+
+.container{
+  background-color: white;
+  max-height: 100vw;
+  height: 100vw;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+}
+
+
+#main-header {
+  font-size: 400%;
+}
+.spacer{
+  height: 100px;
+}
+
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
