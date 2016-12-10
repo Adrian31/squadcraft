@@ -12,11 +12,11 @@
 
 .container{
   background-color: #cdd3d9;
-  max-height: 100vw;
-  height: 100vw;
+  /*max-height: 1080px;
+  height: 1080px; */
 }
 
-img, embed, object, video {
+img, embed, object, {
   max-width: 100%;
 }
 
@@ -24,8 +24,9 @@ img, embed, object, video {
 #main-header {
   font-size: 400%;
 }
+
 .spacer{
-  height: 100px;
+  margin-bottom: 100px;
 }
 
 
