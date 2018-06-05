@@ -10,25 +10,28 @@
   color: #2C3539;
 }
 
-.container{
-  background-color: #cdd3d9;
-  /*max-height: 1080px;
-  height: 1080px; */
-}
-
 img, embed, object, {
   max-width: 100%;
 }
 
-
 #main-header {
-  font-size: 400%;
+  font-size: 300%;
+  margin-top: 15vw;
+  color: white;
+}
+@media screen and (max-width: 800px){
+  #main-header {
+    font-size: 200%;
+  }
+}
+
+.coming-soon{
+  color: white;
 }
 
 .spacer{
   margin-bottom: 100px;
 }
-
 
 video#bgvid {
     position: fixed;
@@ -43,6 +46,6 @@ video#bgvid {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
+    /* background: url(polina.jpg) no-repeat; */
     background-size: cover;
 }
