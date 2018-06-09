@@ -17,19 +17,27 @@ img, embed, object, {
   max-width: 100%;
 }
 
-#main-header {
+#main-header-title{
   font-size: 300%;
-  margin-top: 15vw;
   color: white;
 }
+.main-header {
+  margin-top: 13vw;
+
+}
 @media screen and (max-width: 800px){
-  #main-header {
+  #main-header-title {
     font-size: 200%;
   }
 }
 
 .coming-soon{
   color: white;
+}
+
+#submit {
+  font-size: 200%;
+  padding: 10px;
 }
 
 video#bgvid {
