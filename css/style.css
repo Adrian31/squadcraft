@@ -19,7 +19,7 @@ img, embed, object, {
 
 #main-header {
   font-size: 300%;
-  margin-top: 11vw;
+  margin-top: 15vw;
   color: white;
 }
 @media screen and (max-width: 800px){
@@ -52,4 +52,7 @@ padding-top: 50px;
 padding-bottom: 50px;
 padding-right: 25px;
 padding-left: 25px;
+max-width: 800px;
+max-height: 350px;
+margin: auto;
 }
