@@ -42,8 +42,6 @@ img, embed, object, {
 
 video#bgvid {
     position: fixed;
-    /* left: 50%;
-    top: 50%; */
     right: 0;
     bottom: 0;
     min-width: 100%;
@@ -104,4 +102,9 @@ video#bgvid {
     right:-2.5vmin;
     top:-2.5vmin;
   }
+}
+
+/* SLICK */
+.slick-dots li button::before {
+  font-size: 25px !important;
 }
